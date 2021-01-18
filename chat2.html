@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat w/Hanna - Friendys</title>
+  <!-- There is a bug in Chrome that fires transition on page load without this WTF -->
+  <script> </script>
+</head>
+
+<body id="chat-screen">
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>22:01</span>
+    </div>
+    <div class="status-bar__column">
+      <span>82%</span>
+      <i class="fas fa-battery-three-quarters fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="chats.html">
+        <i class="fas fa-angle-left fa-3x"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">Hanna</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+      Sunday, January 17, 2021
+    </div>
+
+    <div class="message-row">
+        <div class="message-row__comment">
+
+            <img src="https://image.onstove.com/850x0/d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/39a1ac244b72434aa04ea6bb9382d3f0/d36f80aeccd14239b5e59fdac18ee400_1593941563.jpeg" />
+            <div class="message-row__content">
+              <span class="message__author">Hanna</span>
+              <div class="message__info message__info__last">
+                <span class="message__bubble">Moin!</span>
+                <span class="message__time">14:31</span>
+              </div>
+            </div>
+        </div>
+        <div class="message-row__comment">
+            <img src="https://image.onstove.com/850x0/d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/39a1ac244b72434aa04ea6bb9382d3f0/d36f80aeccd14239b5e59fdac18ee400_1593941563.jpeg" />
+            <div class="message-row__content">
+              <span class="message__author">Hanna</span>
+              <div class="message__info message__info__last">
+                  <span class="message__bubble">Wann wollen wir uns treffen?</span>
+                  <span class="message__time">14:32</span>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="message-row message-row--own">
+      <div class="message__info">
+        <span class="message__bubble">Hi!</span>
+        <div class="message__info__last">
+          <span class="message__time">16:08</span>
+          <span class="message__bubble">Um 18 Uhr</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message..." />
+      <i class="far fa-smile-wink fa-lg"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <h3>Would you mind making your screen smaller, please?</h3>
+    <div id="keyboard">
+      <div class="key"></div>
+      <div class="key"></div>
+      <div class="key"></div>
+      <div class="key"></div>
+      <div class="key"></div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

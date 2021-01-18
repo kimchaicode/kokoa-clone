@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Friendys</title>
+    <!-- There is a bug in Chrome that fires transition on page load without this WTF -->
+    <script> </script>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>22:01</span>
+        </div>
+        <div class="status-bar__column">
+          <span>82%</span>
+          <i class="fas fa-battery-three-quarters fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Friendys</h1>
+        <p class="welcome-header__text">
+          If you have a Friendys Account,<br>
+        log in with your email or phone number.
+        </p>
+      </header>
+
+      <form action="friends.html" method="get" id="login-form">
+          <div class="input-wrapper">
+
+              <input class="input-form__input" name="username" id="name" type="text" placeholder="Email or phone number" />
+          </div>
+          <div class="input-wrapper">
+
+              <input class="input-form__input" name="password" id="password" type="password" placeholder="Password" />
+          </div>
+        <input type="submit" value="Log In" />
+        <a href="#">Find Friendys Account or Password</a>
+      </form>
+
+      <div id="no-mobile">
+        <h3>Would you mind making your screen smaller, please?</h3>
+        <div id="keyboard">
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+        </div>
+      </div>
+
+      <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+      ></script>
+</body>
+</html>

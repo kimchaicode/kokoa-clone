@@ -1,0 +1,35 @@
+:root {
+    --font:#e1e1e1;
+    --background: #1e1e1e;
+    --horizontal-space: 15px;
+    --dark-purple: #5d4796;
+    --light-purple: #e1c6fa;
+}
+
+ol,
+ul {
+  list-style: none;
+
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+input:focus {
+    outline: none;
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Friendys</title>
+    <!-- There is a bug in Chrome that fires transition on page load without this WTF -->
+    <script> </script>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>22:01</span>
+        </div>
+        <div class="status-bar__column">
+          <span>82%</span>
+          <i class="fas fa-battery-three-quarters fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+      </a></span>
+        </div>
+      </header>s
+
+      <main class="main-screen">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-qrcode"></i>
+            <span>QR Code</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-address-book"></i>
+            <span>Add by Contacts</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-fingerprint"></i>
+            <span>Add by ID</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-envelope"></i>
+            <span>Invite</span>
+          </div>
+        </div>
+
+        <div class="recommended-friends">
+          <div class="recommended-friends__title">Recommended Friends</div>
+          <span>You have no recommended friends.</span>
+        </div>
+        <div class="open-chat">
+          <div class="open-chat__header">
+            <div>Open Chat</div>
+            <span
+              >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+            </span>
+          </div>
+          <div class="open-post">
+            <div class="open-post__column">
+              <div class="open-post__title">#cafe</div>
+              <div class="open-post__hashtags">#cozy#coffee#studying</div>
+              <div class="open-post__members">
+                <img src="https://lh3.googleusercontent.com/proxy/rQM_YVuUZYvWh35KUDaY4Qq9IQ7XlCA_ayv5UR1ZUbPnyTgQPOYCDA6p6AYJizoOcCt5Oy9yegZUCf3OTSNCuGSEO2XTcV8PGd64sfOmTTLOsWAD5OlTtr9bmUVut7TCvLK4mSVlBFlCxGBmarS5rIBfi8iWdi_GcUVE920YJLpgtfvY9hOhLO4kfTtMXrYuSh42-PeX2kraoX0aTJBAWJ1v09rEN7MlJA-L3RvTAqYPKyk5o7i1VYFEjFHLkCWMx7pU6Cm3K0I0bJp8APP3nJgHakZ8vfg62F8pg_00wMU" />
+                <span class="open-post__member-count">646 members</span>
+                <div class="divider"></div>
+                <span class="open-post__member-status">Active</span>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <div class="open-post__photo">
+                <img src="https://lh3.googleusercontent.com/proxy/rQM_YVuUZYvWh35KUDaY4Qq9IQ7XlCA_ayv5UR1ZUbPnyTgQPOYCDA6p6AYJizoOcCt5Oy9yegZUCf3OTSNCuGSEO2XTcV8PGd64sfOmTTLOsWAD5OlTtr9bmUVut7TCvLK4mSVlBFlCxGBmarS5rIBfi8iWdi_GcUVE920YJLpgtfvY9hOhLO4kfTtMXrYuSh42-PeX2kraoX0aTJBAWJ1v09rEN7MlJA-L3RvTAqYPKyk5o7i1VYFEjFHLkCWMx7pU6Cm3K0I0bJp8APP3nJgHakZ8vfg62F8pg_00wMU" />
+                <div class="open-post__heart-count">
+                  <i class="fas fa-heart fa-xs"></i><span>678</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html"
+              ><i class="fas fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">7</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html"
+              ><i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="no-mobile">
+        <h3>Would you mind making your screen smaller, please?</h3>
+        <div id="keyboard">
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+        </div>
+      </div>
+      <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+      ></script>
+</body>
+</html>

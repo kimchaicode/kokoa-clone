@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Friendys</title>
+    <!-- There is a bug in Chrome that fires transition on page load without this WTF -->
+    <script> </script>
+</head>
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>22:01</span>
+        </div>
+        <div class="status-bar__column">
+          <span>82%</span>
+          <i class="fas fa-battery-three-quarters fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="far fa-comment-dots fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+      </a></span>
+        </div>
+      </header>
+
+      <main class="main-screen">
+        <a href="chat1.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="photo/me.jpg"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text to-me">
+                <div class="user-component__title">
+                    <div class="me">나</div>
+                    Amy Kim
+                </div>
+                <h6 class="user-component__subtitle">
+                  my html documentations
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">12:16</span>
+              <div class="badge">2</div>
+            </div>
+          </div>
+        </a>
+        <a href="chat2.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://image.onstove.com/850x0/d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/39a1ac244b72434aa04ea6bb9382d3f0/d36f80aeccd14239b5e59fdac18ee400_1593941563.jpeg"
+                  class="user-component__avatar user-component__avatar"
+                />
+                <div class="user-component__text">
+                  <h4 class="user-component__title">Hanna</h4>
+                  <h6 class="user-component__subtitle">
+                    Wann wollen wir uns treffen?
+                  </h6>
+                </div>
+              </div>
+              <div class="user-component__column">
+                <span class="user-component__time">14:32</span>
+                <div class="badge">2</div>
+              </div>
+            </div>
+          </a>
+          <a href="chat3.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhEF1ax7mlM6TKlET0iSSVV2r7CYFcfyCeA&usqp=CAU"
+                  class="user-component__avatar user-component__avatar"
+                />
+                <div class="user-component__text">
+                  <h4 class="user-component__title">Judy</h4>
+                  <h6 class="user-component__subtitle">
+                    What's up?
+                  </h6>
+                </div>
+              </div>
+              <div class="user-component__column">
+                <span class="user-component__time">18:45</span>
+                <div class="badge">3</div>
+              </div>
+            </div>
+          </a>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html"
+              ><i class="far fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">7</span>
+              <i class="fas fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html"
+              ><i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="no-mobile">
+        <h3>Would you mind making your screen smaller, please?</h3>
+        <div id="keyboard">
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+        </div>
+      </div>
+      <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+      ></script>
+</body>
+</html>
